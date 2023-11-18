@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-## Logging string
+#logging string
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 project_name = 'cnnClassifier'
@@ -24,12 +24,12 @@ list_of_files = [
     "setup.py",
     "research/trials.ipynb",
     "templates/index.html"
+
 ]
 
-
-for filepath in list_of_files:  # Iterating through given list
+for filepath in list_of_files:
     filepath = Path(filepath)
-    filedir, filename = os.path.split(filepath) # Taking one by one from list and creating a folder
+    filedir, filename = os.path.split(filepath)
 
 
     if filedir !="":
