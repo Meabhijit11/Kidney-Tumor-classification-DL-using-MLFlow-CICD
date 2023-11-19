@@ -5,3 +5,9 @@ data_ingestion:
   source_URL: https://drive.google.com/file/d/1JdOFjlz4nPTDpSV9EZJ_kW_cAZWc65fP/view?usp=sharing
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+
+prepare_base_model:
+  root_dir: artifacts/prepare_base_model                           # It will create a directory inside artifacts folder
+  base_model_path: artifacts/prepare_base_model/base_model.h5      # Here we are downloading a trained model .h5 model
+  updated_base_model_path: artifacts/prepare_base_model/base_model_updated.h5  # Here we will do modification of the model
