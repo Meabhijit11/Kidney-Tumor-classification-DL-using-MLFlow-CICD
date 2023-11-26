@@ -11,3 +11,11 @@
 8. Update the main.py
 9. Update the dvc.yaml
 10. app.py
+
+
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/Meabhijit11/Kidney-Tumor-classification-DL-using-MLFlow-CICD.mlflow
+
+export MLFLOW_TRACKING_USERNAME=Meabhijit11
+
+export MLFLOW_TRACKING_PASSWORD=89282ef0e6b088b214cf1e7e5329275ad100579f
