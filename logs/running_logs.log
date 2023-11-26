@@ -28,3 +28,7 @@
 [2023-11-26 13:53:35,094: INFO: common: created directory at: artifacts/data_ingestion]
 [2023-11-26 13:53:35,096: INFO: 4196335540: Downloading data from https://drive.google.com/file/d/1JdOFjlz4nPTDpSV9EZJ_kW_cAZWc65fP/view?usp=sharing into file artifacts/data_ingestion/data.zip]
 [2023-11-26 13:55:26,992: INFO: 4196335540: Downloaded data from https://drive.google.com/file/d/1JdOFjlz4nPTDpSV9EZJ_kW_cAZWc65fP/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-26 14:08:00,007: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-26 14:08:00,011: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-26 14:08:00,013: INFO: common: created directory at: artifacts]
+[2023-11-26 14:08:00,015: INFO: common: created directory at: artifacts\training]
