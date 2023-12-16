@@ -1,5 +1,5 @@
 from cnnClassifier import logger
-from cnnClassifier.pipeline.stage01_data_injestion import DataIngestionTrainingPipeline
+from cnnClassifier.pipeline.stage01_data_ingestion import DataIngestionTrainingPipeline
 from cnnClassifier.pipeline.stage02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from cnnClassifier.pipeline.stage03_model_training import ModelTrainingPipeline
 from cnnClassifier.pipeline.stage04_model_evaluation import EvaluationPipeline
